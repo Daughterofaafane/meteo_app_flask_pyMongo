@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SYNOP</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+  <script src="{{ url_for('static', filename='js/js.js')}}"></script>
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white rounded-5">
+    <div class="container">
+      <a class="navbar-brand me-2" href="{{ url_for('home_page')}}">
+        <img
+          src="data:image/png;base64,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"
+          height="40" width="100" alt="SYNOP Logo" background-color="light" loading="lazy" style="margin-top: -1px;" />
+      </a>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <h5 class="justify-content-center align-items-center me-5">Station Name : {{station[0].nom}}</h5>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center">
+          <a class="btn btn-outline-info fa fa-download justify-content-lg-end px-3 me-2"
+            href="{{url_for('download')}}"> Télécharger</a>
+
+          <a class="btn btn-outline-info fa fa-line-chart justify-content-lg-end me-2 px-3"
+            href="{{ url_for('graph')}}"> Graphs</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid">
+    <table class="table table-striped table-bordered table-light rounded rounded-5 overflow-hidden">
+      <thead>
+        <tr>
+          <th class="text-center">Date</th>
+          <th class="text-center">Heure</th>
+          <th class="text-center">Température(C°)</th>
+          <th class="text-center">Humidité(%)</th>
+          <th class="text-center">Vitesse du vent moyenne 10mn</th>
+          <th class="text-center">Pression(Pa)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for key in station %}
+        {% if key["tc"] and key["date"] != "" %}
+        <tr>
+          <td class="text-center">{{ key["date"].split("T").pop(0) }}</td>
+          <td class="text-center">{{ key["date"].split("T").pop(1).split("+").pop(0) }}</td>
+          <td class="text-center">{{ key["tc"]|round(2) }} C°</td>
+          <td class="text-center">{{ key["u"] }} %</td>
+          <td class="text-center">{{ key["ff"] }} m/s</td>
+          <td class="text-center">{{ key["pres"] }}</td>
+        </tr>
+        <tr>
+          <th class="text-center">Temps present</th>
+          <td class="text-center" colspan="6">{{ key["temps_present"] }}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>

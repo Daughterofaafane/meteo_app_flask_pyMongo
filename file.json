@@ -1,0 +1,98 @@
+[
+    {
+        "_id": {
+            "$oid": "637201fa3089be966ddeb3e6"
+        },
+        "date": "2022-11-09T09:00:00+00:00",
+        "ff": 3.5,
+        "nom": "BOURGES",
+        "pres": 99490.0,
+        "tc": 13.0,
+        "temps_present": "On n\u2019a pas observ\u00e9 d\u2019\u00e9volution des nuages ou on n\u2019a pas pu suivre cette \u00e9volution",
+        "u": 91
+    },
+    {
+        "_id": {
+            "$oid": "637201fa3089be966ddeb419"
+        },
+        "date": "2022-11-09T15:00:00+00:00",
+        "ff": 2.2,
+        "nom": "BOURGES",
+        "pres": 99700.0,
+        "tc": 14.200000000000045,
+        "temps_present": "On n\u2019a pas observ\u00e9 d\u2019\u00e9volution des nuages ou on n\u2019a pas pu suivre cette \u00e9volution",
+        "u": 79
+    },
+    {
+        "_id": {
+            "$oid": "637201fa3089be966ddeb45e"
+        },
+        "date": "2022-11-09T06:00:00+00:00",
+        "ff": 3.7,
+        "nom": "BOURGES",
+        "pres": 99280.0,
+        "tc": 12.200000000000045,
+        "temps_present": "On n\u2019a pas observ\u00e9 d\u2019\u00e9volution des nuages ou on n\u2019a pas pu suivre cette \u00e9volution",
+        "u": 90
+    },
+    {
+        "_id": {
+            "$oid": "637201fa3089be966ddeb4b4"
+        },
+        "date": "2022-11-09T00:00:00+00:00",
+        "ff": 3.5,
+        "nom": "BOURGES",
+        "pres": 99190.0,
+        "tc": 13.400000000000034,
+        "temps_present": "Pluie, sans cong\u00e9lation, continue, forte au moment de l\u2019observation",
+        "u": 93
+    },
+    {
+        "_id": {
+            "$oid": "637201fa3089be966ddeb4d3"
+        },
+        "date": "2022-11-09T21:00:00+00:00",
+        "ff": 1.6,
+        "nom": "BOURGES",
+        "pres": 100160.0,
+        "tc": 10.0,
+        "temps_present": "On n\u2019a pas observ\u00e9 d\u2019\u00e9volution des nuages ou on n\u2019a pas pu suivre cette \u00e9volution",
+        "u": 98
+    },
+    {
+        "_id": {
+            "$oid": "637201fa3089be966ddeb4fc"
+        },
+        "date": "2022-11-09T03:00:00+00:00",
+        "ff": 3.3,
+        "nom": "BOURGES",
+        "pres": 99230.0,
+        "tc": 12.200000000000045,
+        "temps_present": "On n\u2019a pas observ\u00e9 d\u2019\u00e9volution des nuages ou on n\u2019a pas pu suivre cette \u00e9volution",
+        "u": 89
+    },
+    {
+        "_id": {
+            "$oid": "637201fa3089be966ddeb504"
+        },
+        "date": "2022-11-09T12:00:00+00:00",
+        "ff": 3.3,
+        "nom": "BOURGES",
+        "pres": 99600.0,
+        "tc": 14.400000000000034,
+        "temps_present": "On n\u2019a pas observ\u00e9 d\u2019\u00e9volution des nuages ou on n\u2019a pas pu suivre cette \u00e9volution",
+        "u": 83
+    },
+    {
+        "_id": {
+            "$oid": "637201fa3089be966ddeb50d"
+        },
+        "date": "2022-11-09T18:00:00+00:00",
+        "ff": 1.1,
+        "nom": "BOURGES",
+        "pres": 99930.0,
+        "tc": 11.800000000000011,
+        "temps_present": "On n\u2019a pas observ\u00e9 d\u2019\u00e9volution des nuages ou on n\u2019a pas pu suivre cette \u00e9volution",
+        "u": 93
+    }
+]
